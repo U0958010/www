@@ -1,94 +1,47 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="en">
 <head>
-                    <meta charset="utf-8">
-                    <title>蔡恩亞的文創空間</title>
-                    <meta name="descipition" content="蔡恩亞的文創空間/旅遊/攝影/****/****/">
-                    <link rel="stylesheet" href='style.css'>
-     
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style type="text/css">
+		p{
+			color:red;
+			margin: 5px;
+			cursor: pointer;
+		}
+		p:hover{
+			background: yellow;
+		}
+        .zenbo{
+        	position: fixed;
+        	top: 0;
+        	left: 0;
+        	width:100%;
+        	height: 100%;
+        	z-index:  10;
+        	background: rgba(0,0,0,0.5);
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        }
+	</style>
 
 </head>
 <body>
-<header>
-<h1>蔡恩亞的文創空間</h1>
-<nav class='navigation'>
-<ul>
-<li><a href="#frofile">自我介紹</a></li>
- <li><a href="#concert">個人作品集</a></li>
- <li><a href="https://u0958010.github.io/wed/">歷年專案計畫</a></li>
- <li><a href="https://u0958010.github.io/www/books.xml">收藏的書單</a></li>
- <li><a href="https://u0958010.github.io/wed/form.htm">設計的表單</a></li>
-<li><a href='https://ccdm.nuu.edu.tw/'target="_blank">文創系</a></li>
-<li><a href='https://www.nuu.edu.tw/'target="_blank">聯合大學</a></li>
-</ul>
-</nav>
-</header>
-<main>
-        <div class="mainvisual">
-        <img src="01.jpg" alt='主視覺圖片'width='740'height='340'>
-        </div>
-
-        <article id='profile'>
-        <div class='inner'>
-        <h2>自我介紹</h2>
-        <p>我是蔡恩亞，來自南投，興趣是旅遊和吃美食。家裡養了兩隻貓咪。</p>
-        </div>
-        </article>
-       
-         <article id='concert'>
-          <h2>個人</h2>
-        <p>簡歷/專案/作品</p>
-         <section>
-         <h3>個人簡歷</h3>
-          <table>
-                         <tr><th>現職</th><td>聯合大學</td></tr>
-                         <tr><th>學歷</th><td>暨大附中</td></tr>
-                         <tr><th>出生地</th><td>南投</td></tr>
-                         <tr><th>興趣</th><td>旅遊</td></tr>
-          </table>
-           </section>
-
-	 <section> 
-	<h3>攝影作品</h3>
-		<section class="performer">
-		<img src="04.jpg" width='150'height='150'>
-		<h3>合歡山</h3>
-		<p>合歡山夕陽</p> 
-		</section>
-<section class="performer">
-		<img src="05.jpg" width='150'height='150'>
-		<h3>花蓮</h3>
-		<p>清水斷崖</p> 
-		</section>
-<section class="performer">
-		<img src="03.jpg" width='150'height='150'>
-		<h3>台東</h3>
-		<p>多良車站</p> 
-		</section>
-<section class="performer">
-		<img src="02.jpg" width='150'height='150'>
-		<h3>澎湖</h3>
-		<p>西嶼</p> 
-		</section>
-<section>
-<h3>特殊經歷</h3>
-<ol>
-<li>暨大附中109級儀隊
-<li>暨大附中襄儀
-<li>暨大附中第6屆學生會(行政組)
-</ol>
-</section>
-
-	
-
- </article>
-
-
-
-</main>
-<footer>
-<p class='pagtop'><a href='#top'>回到頁首</a></p>
-<p class='copyright'><small>&copy;coopyRight2020文創系</small></p>
-</footer>
-   </body>
+	<p>產品介紹</p>
+	<h1>智慧型客語機器人</h1>
+	<div class="zenbo">
+	   <img src="1.JPG">
+    </div>
+   
+ 	<script type="text/javascript">
+	   $('p').click(function(){
+	      $('.zenbo').slideToggle();
+	   $('img').click(function(){
+	      $('.zenbo').slideToggle();
+	});
+	</script>
+</body>
 </html>
