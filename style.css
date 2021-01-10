@@ -1,19 +1,19 @@
 /* body */
 body {
-    background-color: #9eb5e1;
+    background-color: #426ec7;
     margin: 0;
 }
 
 /* 標題1*/
 h1 {
     font-size: 3em;
-    color: #5e4d4b;
+    color: #418ed2;
     text-align: center;
 }
 
 /* 選單 */
 .navigation ul {
-    background-color: #d5cdce;
+    background-color: #000000;
     margin: 0;
     padding: 4px;
     text-align: center;
@@ -24,17 +24,17 @@ h1 {
     margin: 0 8px;
 }
 .navigation ul li a {
-    color: #36405f;
+    color: #ffffff;
     text-decoration: none;
 }
 .navigation ul li a:hover {
-    color: #62d5e8;
+    color: #6aa8dc;
     text-decoration: underline;
 }
 
 /* 主視覺 */
 .mainvisual {
-    background-color: #829a85;
+    background-color: #8d40c0;
     border-bottom: solid 3px #000000;
 }
 .mainvisual img {
@@ -51,7 +51,7 @@ article {
 
 /* 背景色・文字色 */
 #profile {
-    background-color: #5a5e72;
+    background-color: #002c8b;
     color: #ffffff;
 }
 
@@ -78,7 +78,7 @@ h2 {
 }
 
 h3 {
-    border-left: solid 6px #6b3008;
+    border-left: solid 6px #426ec7;
     padding-left: 6px;
 }
 
@@ -88,7 +88,7 @@ table {
     width: 100%;
 }
 th,td {
-    border: solid 1px #6d7c9f;
+    border: solid 1px #999999;
     padding: 16px;
 }
 th {
