@@ -34,7 +34,7 @@ h1 {
 
 /* 主視覺 */
 .mainvisual {
-    background-color: #8d40c0;
+    background-color: #929fe7;
     border-bottom: solid 3px #000000;
 }
 .mainvisual img {
@@ -52,7 +52,7 @@ article {
 /* 背景色・文字色 */
 #profile {
     background-color: #002c8b;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* 邊界設定 */
